@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.title {
+  background-color: #bf1363;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.l1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 5.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.download-btn {
+  margin: 8% 3% 8% 0;
+}
+
+.image {
+  width: 60%;
+  margin-left: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-row {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #bf1363;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #ac66cc;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ac66cc;
+  color: #fff;
+}
+
+.smarthomeimage {
+  width: 20%;
+  margin: 5%
+}
+
+#press {
+  background-color: #ac66cc;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.presslogo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.prices-col {
+  padding: 3% 2%
+}
+
+.button {
+  background-color: #0e49b5;
+}
+
+@media (max-width:1055px) {
+  .image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width:990px) {
+  .title {
+    text-align: center;
+  }
+
+  .image {
+    margin-left: 0;
+  }
+}
+
+#cta {
+  background-color: #bf1363;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-head {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.colu {
+  margin: 20px 10px;
+}
